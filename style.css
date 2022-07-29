@@ -349,7 +349,7 @@ a.First-imageLink:hover {
 }
 
 
-.Main-Container h1 {
+.First-Conatiner h1 {
     margin: 2% auto;
     width: 90%;
     font-size: 80px;
@@ -357,7 +357,7 @@ a.First-imageLink:hover {
     border: 1px solid rgb(255, 0, 0);
 }
 
-.Main-Container p {
+.First-Conatiner p {
     font-size: 18px;
     font-weight: bold;
     width: 90%;
@@ -394,7 +394,7 @@ a.First-imageLink:hover {
 
 .btn-Yellow-dark {
     width: 90%;
-    margin: 5% auto;
+    margin: 6% auto;
     border: 1px solid rgb(255, 0, 0);
 }
 
@@ -419,7 +419,7 @@ a.First-imageLink:hover {
 
 .btn-Black-dark {
     width: 90%;
-    margin: 5% auto;
+    margin: 6% auto;
     border: 1px solid rgb(255, 0, 0);
 }
 
@@ -445,7 +445,7 @@ a.First-imageLink:hover {
 
 .btn-Pink-dark {
     width: 90%;
-    margin: 3% auto;
+    margin: 6% auto;
     border: 1px solid rgb(255, 0, 0);
 }
 
@@ -483,8 +483,34 @@ a.First-imageLink:hover {
     margin: 2% 1%;
     /* border: 1px solid rgb(25, 0, 255); */
 }
+.Second-Conatiner-Image{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    margin: 0% 5%;
+    /* border: 2px solid red; */
+    background-color: white;
+}
+.Second-Conatiner-Image img{
+    /* border: 1px solid red; */
+    width:45%;
+    /* height: 250px; */
+    /* margin: 2% auto; */
+    /* border: 1px solid rgb(25, 0, 255); */
+}
+.Second-Conatiner h1 {
+    margin: 4% 5% ;
+    width: 90%;
+    font-size: 30px;
+    font-size: bolder;
+    text-align: left;
+    /* border: 1px solid rgb(255, 0, 0); */
+}
 
-
+.Second-Conatiner .btn-Green-dark {
+    margin: 4% 5%;
+    text-align: left;
+}
 
 
 
