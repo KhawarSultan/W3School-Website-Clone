@@ -185,12 +185,12 @@ nav img:hover {
     font-weight: bold;
     padding: 10px 25px;
     border-radius: 30px;
-    background: #04aa6d;
+    background-color: #04aa6d;
 }
 
 .navlinks-2 .btn-Green-dark:hover {
     color: rgb(255, 255, 255);
-    background: #049962;
+    background-color: #049962;
     font-weight: bold;
 }
 
@@ -199,9 +199,9 @@ nav img:hover {
 
 
 #text-Box {
-    background: url(/images/1st_Image.png);
-    width: 100%;
-    height: 90vh;
+    background-color: #282a35;
+    /* width: 100%; */
+    /* height: 90vh; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -380,13 +380,13 @@ a.First-imageLink:hover {
     font-weight: bold;
     padding: 10px 60px;
     border-radius: 30px;
-    background: #04aa6d;
+    background-color: #04aa6d;
 
 }
 
 .btn-Green-dark a:hover {
     color: rgb(255, 255, 255);
-    background: #049962;
+    background-color: #049962;
     font-weight: bold;
 }
 
@@ -400,20 +400,20 @@ a.First-imageLink:hover {
 
 .btn-Yellow-dark a {
     letter-spacing: 0.6px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 18px;
     text-align: center;
     font-weight: bold;
     padding: 10px 50px;
     border-radius: 30px;
-    background: #04aa6d;
+        background-color: #fff4a3;
 
 }
 
 .btn-Yellow-dark a:hover {
-    color: rgb(255, 255, 255);
-    background: #049962;
+    color: rgb(0, 0, 0);
+    background-color: #fdf08a;
     font-weight: bold;
 }
 
@@ -432,13 +432,12 @@ a.First-imageLink:hover {
     font-weight: bold;
     padding: 10px 47px;
     border-radius: 30px;
-    background: #04aa6d;
-
+    background-color: #282a35;
 }
 
 .btn-Black-dark a:hover {
     color: rgb(255, 255, 255);
-    background: #049962;
+    background-color: #060708;
     font-weight: bold;
 }
 
@@ -451,20 +450,19 @@ a.First-imageLink:hover {
 
 .btn-Pink-dark a {
     letter-spacing: 0.6px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 18px;
     text-align: center;
     font-weight: bold;
     padding: 10px 47px;
     border-radius: 30px;
-    background: #04aa6d;
-
+        background-color: #ffc0c7;
 }
 
 .btn-Pink-dark a:hover {
-    color: rgb(255, 255, 255);
-    background: #049962;
+    color: rgb(0, 0, 0);
+    background-color: #f5b8bf;
     font-weight: bold;
 }
 
