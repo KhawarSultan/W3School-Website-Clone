@@ -13,7 +13,7 @@ body {
 
 
 header {
-    /* background-color: #ffffff; */
+    background-color: #ffffff;
 
 }
 
@@ -22,7 +22,7 @@ header {
 .main-nav {
     height: 75px;
     /* margin: 0% 0%; */
-    border: 2px solid whitesmoke;
+    /* border: 2px solid whitesmoke; */
 }
 
 
@@ -78,7 +78,7 @@ nav img:hover {
     text-align: center;
     font-weight: bold;
     padding: 27px 20px;
-    border: 2px solid whitesmoke;
+    /* border: 2px solid whitesmoke; */
 }
 
 .navlinks li a:hover {
@@ -93,7 +93,7 @@ nav img:hover {
     float: right;
     margin-right: 2%;
     padding: 0;
-    border: 2px solid rgb(255, 0, 0);
+    /* border: 2px solid rgb(255, 0, 0); */
 }
 
 .navlinks-2 li {
@@ -128,7 +128,7 @@ nav img:hover {
     display: inline-block;
     padding: 24px 0px;
     font-size: 20px;
-    border: 2px solid whitesmoke;
+    /* border: 2px solid whitesmoke; */
 }
 
 .Nav-icons .fa-solid {
@@ -178,7 +178,7 @@ nav img:hover {
 }
 
 .navlinks-2 .btn-Green-dark {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 18px;
     text-align: center;
@@ -223,7 +223,7 @@ nav img:hover {
     font-size: 22px;
     font-weight: bolder;
     width: 90%;
-    color: white;
+    color: #ffc0c7;
     margin: auto;
     margin: 2% auto 2% auto;
     /* border: 2px solid white; */
@@ -344,7 +344,7 @@ a.First-imageLink:hover {
 .First-Conatiner {
     width: 100%;
     margin: auto;
-    margin: 2% 1%;
+    margin: 2% 2%;
     border: 1px solid rgb(25, 0, 255);
 }
 
@@ -365,10 +365,13 @@ a.First-imageLink:hover {
     border: 1px solid rgb(255, 0, 0);
 }
 
+
 .btn-Green-dark {
     width: 90%;
-    margin: 5% auto;
+    margin: 3% auto;
     border: 1px solid rgb(255, 0, 0);
+    /* display: block; */
+
 }
 
 .btn-Green-dark a {
@@ -378,10 +381,11 @@ a.First-imageLink:hover {
     font-size: 18px;
     text-align: center;
     font-weight: bold;
-    padding: 10px 60px;
-    border-radius: 30px;
     background-color: #04aa6d;
-
+    border-radius: 30px;
+    padding: 10px 0px;
+    display: inline-block;
+    width: 50%;
 }
 
 .btn-Green-dark a:hover {
@@ -394,7 +398,7 @@ a.First-imageLink:hover {
 
 .btn-Yellow-dark {
     width: 90%;
-    margin: 6% auto;
+    margin: 3% auto;
     border: 1px solid rgb(255, 0, 0);
 }
 
@@ -405,10 +409,14 @@ a.First-imageLink:hover {
     font-size: 18px;
     text-align: center;
     font-weight: bold;
-    padding: 10px 50px;
     border-radius: 30px;
-        background-color: #fff4a3;
+    background-color: #fff4a3;
 
+
+
+    padding: 10px 0px;
+    display: inline-block;
+    width: 50%;
 }
 
 .btn-Yellow-dark a:hover {
@@ -419,7 +427,7 @@ a.First-imageLink:hover {
 
 .btn-Black-dark {
     width: 90%;
-    margin: 6% auto;
+    margin: 3% auto;
     border: 1px solid rgb(255, 0, 0);
 }
 
@@ -430,9 +438,14 @@ a.First-imageLink:hover {
     font-size: 18px;
     text-align: center;
     font-weight: bold;
-    padding: 10px 47px;
     border-radius: 30px;
     background-color: #282a35;
+
+
+
+    padding: 10px 0px;
+    display: inline-block;
+    width: 50%;
 }
 
 .btn-Black-dark a:hover {
@@ -444,7 +457,7 @@ a.First-imageLink:hover {
 
 .btn-Pink-dark {
     width: 90%;
-    margin: 6% auto;
+    margin: 3% auto 5% auto;
     border: 1px solid rgb(255, 0, 0);
 }
 
@@ -455,14 +468,17 @@ a.First-imageLink:hover {
     font-size: 18px;
     text-align: center;
     font-weight: bold;
-    padding: 10px 47px;
     border-radius: 30px;
-        background-color: #ffc0c7;
+    background-color: #ffc0c7;
+
+    padding: 10px 0px;
+    display: inline-block;
+    width: 50%;
 }
 
 .btn-Pink-dark a:hover {
     color: rgb(0, 0, 0);
-    background-color: #f5b8bf;
+    background-color: #ffb3bb;
     font-weight: bold;
 }
 
@@ -474,14 +490,15 @@ a.First-imageLink:hover {
 
 .Second-Conatiner {
     box-shadow: 0.5px 0.5px 4px 0.5px #888888;
+    border-radius: 5px;
     background-color: #e7e9eb;
     width: 100%;
     margin: auto;
-    border-radius: 5px;
-    margin: 2% 1%;
+    margin: 2% 2%;
     /* border: 1px solid rgb(25, 0, 255); */
 }
-.Second-Conatiner-Image{
+
+.Second-Conatiner-Image {
     width: 90%;
     height: 300px;
     margin: auto;
@@ -489,15 +506,17 @@ a.First-imageLink:hover {
     /* border: 2px solid red; */
     background-color: white;
 }
-.Second-Conatiner-Image img{
+
+.Second-Conatiner-Image img {
     /* border: 1px solid red; */
-    width:45%;
+    width: 45%;
     /* height: 250px; */
     /* margin: 2% auto; */
     /* border: 1px solid rgb(25, 0, 255); */
 }
+
 .Second-Conatiner h1 {
-    margin: 4% 5% ;
+    margin: 4% 5%;
     width: 90%;
     font-size: 30px;
     font-size: bolder;
@@ -509,6 +528,192 @@ a.First-imageLink:hover {
     margin: 4% 5%;
     text-align: left;
 }
+
+
+
+
+#SecondImage-Container {
+    background-color: #282a35;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 0px;
+}
+
+.SecondImage-Conatiner {
+    box-shadow: 0.5px 0.5px 4px 0.5px #888888;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+    margin: 2% 2%;
+    border: 1px solid rgb(25, 0, 255);
+}
+
+.SecondImage-Conatiner h1 {
+    margin: 8% auto 4% auto;
+    width: 90%;
+    font-size: 50px;
+    font-size: bolder;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.SecondImage-Conatiner p {
+    font-size: 18px;
+    font-weight: bold;
+    width: 90%;
+    margin: 4% auto 6% auto;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+
+
+
+
+.Boton-Pink {
+    display: flex;
+    width: 100%;
+    margin: 2%;
+    border-radius: 5px;
+    /* background-color: #282a35; */
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+
+.Boton-Pink a {
+    letter-spacing: 0.6px;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #e9b1b8;
+    border-radius: 5px;
+    padding: 37px 0px;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.Boton-Pink a:hover {
+    background-color: #ffc0c7;
+}
+
+
+
+.Boton-Yellow {
+    /* background-color: #282a35; */
+    display: flex;
+    width: 100%;
+    margin: 2%;
+    border-radius: 5px;
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+
+.Boton-Yellow a {
+    letter-spacing: 0.6px;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #e9df98;
+    border-radius: 5px;
+    padding: 37px 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+.Boton-Yellow a:hover {
+    background-color: #fff4a3;
+}
+
+
+
+.Boton-White {
+    /* background-color: #282a35; */
+    display: flex;
+    width: 100%;
+    margin: 2%;
+    border-radius: 5px;
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+
+.Boton-White a {
+    letter-spacing: 0.6px;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ded8d8;
+    border-radius: 5px;
+    padding: 37px 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+.Boton-White a:hover {
+    background-color: #f3ecea;
+}
+
+
+
+.Boton-Swans {
+    /* background-color: #282a35; */
+    display: flex;
+    width: 100%;
+    margin: 2%;
+    border-radius: 5px;
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+
+.Boton-Swans a {
+    letter-spacing: 0.6px;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #c7dacf;
+    border-radius: 5px;
+    padding: 37px 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+.Boton-Swans a:hover {
+    background-color: #d9eee1;
+}
+
+
+
+.Boton-Blue {
+    /* background-color: #282a35; */
+    display: flex;
+    width: 100%;
+    margin: 2%;
+    border-radius: 5px;
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+
+.Boton-Blue a {
+    letter-spacing: 0.6px;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #8bc3c4;
+    border-radius: 5px;
+    padding: 37px 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+.Boton-Blue a:hover {
+    background-color: #96d4d4;
+}
+
+
 
 
 
