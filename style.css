@@ -4,6 +4,12 @@
     font-family: "SourceSansPro";
 }
 
+@font-face {
+
+    src: url("/Fonts/FreckleFace-Regular.ttf");
+    font-family: "FreckleFace";
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -716,6 +722,131 @@ a.First-imageLink:hover {
 
 
 
+#ThirdImage-Container {
+
+
+    background-color: #282a35f4;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 0px;
+}
+
+#Scroll-Image {
+    background: url(/images/ScrolImage.jpg);
+    background-position: center;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#FourthImage-Container {
+
+    background-color: #f3ecea;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 0px;
+}
+
+#FourthImage-Container img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#FifthImage-Container {
+    background-color: #96d4d4;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 0px;
+}
+
+#FifthImage-Container h1 {
+    font-family: "FreckleFace";
+}
+
+#FifthImage-Container p {
+    font-family: "FreckleFace";
+}
+
+#FifthImage-Container img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#SixImage-Container {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 0px;
+}
+
+#Scroll-Image-2 {
+    background: url(/images/w3codes.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#SeventhImage-Container {
+    background-color: #e7e9eb;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 0px;
+}
+
+#EightImage-Container {
+    background-color: #e7e9eb;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 0px;
+}
+
+.cls-1 {
+    fill: #04aa6b;
+}
+
+.cls-2 {
+    font-size: 26px;
+}
+
+.cls-2,
+.cls-3,
+.cls-4 {
+    fill: #fff;
+}
+
+.cls-2,
+.cls-3 {
+    font-family: "SourceSansPro";
+    font-weight: bold;
+}
+
+.cls-3 {
+    font-size: 22px;
+}
+
+
+#NinthImage-Container {
+    background-color: #282a35;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 0px;
+}
+
+#TengthImage-Container {
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 0px;
+}
 
 
 
@@ -726,6 +857,191 @@ a.First-imageLink:hover {
 
 
 
+
+
+
+
+#TengthImage-Container .mySlides {
+    display: none
+}
+
+#TengthImage-Container img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.prev{
+   left: 0;
+}
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    font-family: "SourceSansPro";
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 0px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    font-family: "SourceSansPro";
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+
+
+
+.Last-Boton-White {
+    /* background-color: #282a35; */
+    display: flex;
+    width: 100%;
+    margin: 2%;
+    border-radius: 5px;
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+
+.Last-Boton-White a {
+    margin-right: 2%;
+    letter-spacing: 0.6px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+.Last-Boton-White a:hover {
+    background-color: rgb(247, 247, 247);
+}
+
+.Last-Boton-Green {
+    /* background-color: #282a35; */
+    display: flex;
+    width: 100%;
+    margin: 2%;
+    border-radius: 5px;
+
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+
+.Last-Boton-Green a {
+    margin-right: 2%;
+    letter-spacing: 0.6px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    /* padding: 10px 0px; */
+    display: inline-block;
+}
+
+.Last-Boton-Green a:hover {
+       color: #04aa6d;
+}
+
+
+
+
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
 @media (max-width: 1300px) {
     .navlinks {
         top: 15%;
