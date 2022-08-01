@@ -25,6 +25,27 @@ header {
 
 
 
+
+
+.Gap-Between {
+    width: 100%;
+    /* border: 2px solid #04AA6D; */
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+
+    margin-right: 2%;
+}
+
+.Gap-Between-2 {
+    width: 100%;
+    /* border: 2px solid #04AA6D; */
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-left: 2%;
+}
+
 .main-nav {
     height: 75px;
     /* margin: 0% 0%; */
@@ -340,27 +361,41 @@ a.First-imageLink:hover {
 #Main-Container {
     margin: auto;
     width: 90%;
-    border: 1px solid black;
+    /* border: 1px solid rgb(255, 0, 0); */
     align-content: center;
     align-items: center;
     text-align: center;
+    padding: 2%;
     display: flex;
+    /* gap: 5rem; */
+    justify-content: space-between;
 }
 
 .First-Conatiner {
     width: 100%;
     margin: auto;
-    margin: 2% 2%;
-    border: 1px solid rgb(25, 0, 255);
+    margin-right: 2%;
+    /* border: 1px solid rgb(25, 0, 255); */
 }
 
+.Second-Conatiner {
+
+    width: 100%;
+    margin: auto;
+    margin-left: 2%;
+    border: 1px solid transparent;
+    box-shadow: 0.5px 0.5px 4px 0.5px #888888;
+    border-radius: 5px;
+    background-color: #e7e9eb;
+
+}
 
 .First-Conatiner h1 {
     margin: 2% auto;
     width: 90%;
     font-size: 80px;
     font-size: bolder;
-    border: 1px solid rgb(255, 0, 0);
+    /* border: 1px solid rgb(255, 0, 0); */
 }
 
 .First-Conatiner p {
@@ -368,14 +403,14 @@ a.First-imageLink:hover {
     font-weight: bold;
     width: 90%;
     margin: 5% auto;
-    border: 1px solid rgb(255, 0, 0);
+    /* border: 1px solid rgb(255, 0, 0); */
 }
 
 
 .btn-Green-dark {
     width: 90%;
     margin: 3% auto;
-    border: 1px solid rgb(255, 0, 0);
+    /* border: 1px solid rgb(255, 0, 0); */
     /* display: block; */
 
 }
@@ -405,7 +440,7 @@ a.First-imageLink:hover {
 .btn-Yellow-dark {
     width: 90%;
     margin: 3% auto;
-    border: 1px solid rgb(255, 0, 0);
+    /* border: 1px solid rgb(255, 0, 0); */
 }
 
 .btn-Yellow-dark a {
@@ -417,9 +452,6 @@ a.First-imageLink:hover {
     font-weight: bold;
     border-radius: 30px;
     background-color: #fff4a3;
-
-
-
     padding: 10px 0px;
     display: inline-block;
     width: 50%;
@@ -434,7 +466,7 @@ a.First-imageLink:hover {
 .btn-Black-dark {
     width: 90%;
     margin: 3% auto;
-    border: 1px solid rgb(255, 0, 0);
+    /* border: 1px solid rgb(255, 0, 0); */
 }
 
 .btn-Black-dark a {
@@ -446,9 +478,6 @@ a.First-imageLink:hover {
     font-weight: bold;
     border-radius: 30px;
     background-color: #282a35;
-
-
-
     padding: 10px 0px;
     display: inline-block;
     width: 50%;
@@ -464,7 +493,7 @@ a.First-imageLink:hover {
 .btn-Pink-dark {
     width: 90%;
     margin: 3% auto 5% auto;
-    border: 1px solid rgb(255, 0, 0);
+    /* border: 1px solid rgb(255, 0, 0); */
 }
 
 .btn-Pink-dark a {
@@ -476,7 +505,6 @@ a.First-imageLink:hover {
     font-weight: bold;
     border-radius: 30px;
     background-color: #ffc0c7;
-
     padding: 10px 0px;
     display: inline-block;
     width: 50%;
@@ -494,19 +522,10 @@ a.First-imageLink:hover {
 
 
 
-.Second-Conatiner {
-    box-shadow: 0.5px 0.5px 4px 0.5px #888888;
-    border-radius: 5px;
-    background-color: #e7e9eb;
-    width: 100%;
-    margin: auto;
-    margin: 2% 2%;
-    /* border: 1px solid rgb(25, 0, 255); */
-}
 
 .Second-Conatiner-Image {
     width: 90%;
-    height: 300px;
+    /* height: 250px; */
     margin: auto;
     margin: 0% 5%;
     /* border: 2px solid red; */
@@ -550,25 +569,57 @@ a.First-imageLink:hover {
     box-shadow: 0.5px 0.5px 4px 0.5px #888888;
     border-radius: 5px;
     width: 100%;
+    padding: 2% 0px;
     margin: auto;
-    margin: 2% 2%;
-    border: 1px solid rgb(25, 0, 255);
+    margin-right: 2%;
+    /* border: 1px solid rgb(25, 0, 255); */
 }
 
 .SecondImage-Conatiner h1 {
-    margin: 8% auto 4% auto;
+    margin: auto;
+    margin-bottom: 4%;
     width: 90%;
     font-size: 50px;
     font-size: bolder;
-    border: 1px solid rgb(255, 0, 0);
+    /* border: 1px solid rgb(255, 0, 0); */
 }
 
 .SecondImage-Conatiner p {
     font-size: 18px;
     font-weight: bold;
     width: 90%;
-    margin: 4% auto 6% auto;
-    border: 1px solid rgb(255, 0, 0);
+    margin: auto;
+    margin-bottom: 8%;
+    /* border: 1px solid rgb(255, 0, 0); */
+}
+
+.SecondImage-Second-Conatiner {
+
+
+    box-shadow: 0.5px 0.5px 4px 0.5px #888888;
+    border-radius: 5px;
+    width: 100%;
+    padding: 2% 0px;
+    margin: auto;
+    margin-left: 2%;
+}
+
+.SecondImage-Second-Conatiner h1 {
+    margin: auto;
+    margin-bottom: 4%;
+    width: 90%;
+    font-size: 50px;
+    font-size: bolder;
+    /* border: 1px solid rgb(255, 0, 0); */
+}
+
+.SecondImage-Second-Conatiner p {
+    font-size: 18px;
+    font-weight: bold;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 8%;
+    /* border: 1px solid rgb(255, 0, 0); */
 }
 
 
@@ -578,7 +629,9 @@ a.First-imageLink:hover {
 .Boton-Pink {
     display: flex;
     width: 100%;
-    margin: 2%;
+    /* margin: auto; */
+    /* margin: 2%; */
+    /* margin-right: 2%; */
     border-radius: 5px;
     /* background-color: #282a35; */
     /* border: 2px solid rgb(0, 0, 0); */
@@ -606,11 +659,13 @@ a.First-imageLink:hover {
 
 
 .Boton-Yellow {
-    /* background-color: #282a35; */
+    /* margin: auto; */
     display: flex;
     width: 100%;
-    margin: 2%;
     border-radius: 5px;
+    /* background-color: #282a35; */
+    /* margin: 2%; */
+    /* margin-left: 2%; */
     /* border: 2px solid rgb(0, 0, 0); */
 }
 
@@ -638,7 +693,7 @@ a.First-imageLink:hover {
     /* background-color: #282a35; */
     display: flex;
     width: 100%;
-    margin: 2%;
+    /* margin: 2%; */
     border-radius: 5px;
     /* border: 2px solid rgb(0, 0, 0); */
 }
@@ -667,7 +722,7 @@ a.First-imageLink:hover {
     /* background-color: #282a35; */
     display: flex;
     width: 100%;
-    margin: 2%;
+    /* margin: 2%; */
     border-radius: 5px;
     /* border: 2px solid rgb(0, 0, 0); */
 }
@@ -696,7 +751,8 @@ a.First-imageLink:hover {
     /* background-color: #282a35; */
     display: flex;
     width: 100%;
-    margin: 2%;
+    /* margin: auto;
+    margin-bottom: 0%; */
     border-radius: 5px;
     /* border: 2px solid rgb(0, 0, 0); */
 }
@@ -725,7 +781,7 @@ a.First-imageLink:hover {
 #ThirdImage-Container {
 
 
-    background-color: #282a35f4;
+    background-color: #282a35e8;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -892,9 +948,11 @@ a.First-imageLink:hover {
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
-.prev{
-   left: 0;
+
+.prev {
+    left: 0;
 }
+
 /* Position the "next button" to the right */
 .next {
     right: 0;
@@ -958,9 +1016,9 @@ a.First-imageLink:hover {
 
 
 .Last-Boton-White {
-    /* background-color: #282a35; */
+    background-color: #282a35;
     display: flex;
-    width: 100%;
+    width: 40%;
     margin: 2%;
     border-radius: 5px;
     /* border: 2px solid rgb(0, 0, 0); */
@@ -975,7 +1033,7 @@ a.First-imageLink:hover {
     text-align: center;
     font-weight: bold;
     border-radius: 5px;
-    padding: 10px 0px;
+    padding: 13px 0px;
     display: inline-block;
     width: 100%;
 }
@@ -987,27 +1045,303 @@ a.First-imageLink:hover {
 .Last-Boton-Green {
     /* background-color: #282a35; */
     display: flex;
-    width: 100%;
     margin: 2%;
-    border-radius: 5px;
-
+    text-align: center;
     /* border: 2px solid rgb(0, 0, 0); */
 }
 
 .Last-Boton-Green a {
-    margin-right: 2%;
+    margin: 0px 3%;
     letter-spacing: 0.6px;
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px;
-    /* padding: 10px 0px; */
     display: inline-block;
 }
 
 .Last-Boton-Green a:hover {
-       color: #04aa6d;
+    color: #04aa6d;
 }
+
+a.terms-LINK:link {
+    color: white;
+    text-decoration: underline;
+}
+
+a.terms-LINK:hover {
+    color: #049962;
+}
+
+a.terms-LINK,
+::after {
+    color: #ffffff;
+}
+
+.thumbs-icon {
+    color: white;
+    border: none;
+    font-size: 44px;
+    cursor: pointer;
+}
+
+.thumbs-icon:hover {
+    color: rgba(255, 255, 255, 0.637);
+}
+
+
+.Facebook-icon .fab {
+
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Facebook-icon .fab:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+#Tutorials {
+    /* background-color: rgb(1, 219, 103); */
+    width: 100%;
+    color: white;
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    overflow-x: hidden;
+    /* top: 100%; */
+    background-color: #282a35;
+    /* display: none; */
+    /* padding: 50px 20px; */
+    /* background-color: #f9f9f9; */
+    /* left: 0; */
+    /* z-index: 1; */
+}
+
+#Tutorials .fa {
+    color: white;
+    text-align: center;
+    width: 5%;
+    padding: 20px 36px;
+    font-size: 30px;
+    /* border: 3px solid rgb(255, 238, 0); */
+
+}
+
+#Tutorials .fa:hover {
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+}
+
+#Tutorials h2 {
+    margin: auto;
+    width: 78%;
+    text-align: left;
+    font-size: 42px;
+    color: #fff4a3;
+    /* padding: 0px 25px; */
+    /* height: 0px; */
+    /* background: #282a35; */
+}
+
+.Menu {
+    width: 79%;
+    display: flex;
+    margin: auto;
+    /* border: 3px solid rgb(255, 238, 0); */
+    /* text-align: center;
+    align-items: center;
+    align-content: center; */
+    /* height: 700px; */
+}
+
+.tabcontent {}
+
+.column {
+
+    color: #fdf4a3;
+    width: 100%;
+    /* float: left; */
+    /* width: 25%; */
+    /* padding: 50px 20px; */
+    /* background-color: #282a35; */
+    /* height: 420px; */
+    /* border: 2px solid rgb(255, 0, 0); */
+    /* margin: 0% 0% 0% 0%; */
+    padding: 20px 0px 50px 0px;
+}
+
+.column h3 {
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    font-size: 24px;
+    padding: 20px 0px;
+}
+
+.column a {
+    float: none;
+    color: white;
+    /* padding: 6px 1px; */
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: left;
+    /* position: static; */
+    /* margin-left: 10px; */
+    width: 90%;
+    margin: auto;
+    padding: 5px 0px;
+    /* border: 2px solid rgb(0, 217, 255); */
+}
+
+
+.column a:hover {
+    background-color: #ddd;
+    color: black;
+    /* font-family: "Source Sans Pro"; */
+    /* font-weight: 600; */
+    /* height: 33px; */
+    /* width: 100%; */
+    /* font-size: 16px;
+    font-weight: bold; */
+    /* border: 2px solid rgb(251, 255, 0); */
+}
+
+
+#Refrences {
+    /* background-color: rgb(1, 219, 103); */
+    width: 100%;
+    color: white;
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    overflow-x: hidden;
+    background-color: #282a35;
+
+}
+
+#Refrences .fa {
+    color: white;
+    text-align: center;
+    width: 5%;
+    padding: 20px 36px;
+    font-size: 30px;
+}
+
+#Refrences .fa:hover {
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+}
+
+#Refrences h2 {
+    margin: auto;
+    width: 78%;
+    text-align: left;
+    font-size: 42px;
+    color: #fff4a3;
+}
+
+
+
+#Exercises {
+    /* background-color: rgb(1, 219, 103); */
+    width: 100%;
+    color: white;
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    overflow-x: hidden;
+    background-color: #282a35;
+
+}
+
+#Exercises .fa {
+    color: white;
+    text-align: center;
+    width: 5%;
+    padding: 20px 36px;
+    font-size: 30px;
+}
+
+#Exercises .fa:hover {
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+}
+
+#Exercises h2 {
+    margin: auto;
+    width: 78%;
+    text-align: left;
+    font-size: 42px;
+    color: #fff4a3;
+}
+
+
+
+
+.Code-Editor-Image {
+    width: 70%;
+    margin: auto;
+}
+
+.btn {
+    text-align: left;
+    width: 70%;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.btn .btn-Green-dark {
+
+    margin-left: 0px;
+}
+
+.btn .btn-yellow-dark {
+    margin-left: 0px;
+}
+
+
+
+.W3-logo {
+    margin: auto;
+    width: 20%;
+}
+
+
+.Slider {
+    position: relative;
+    width: 70%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1042,49 +1376,198 @@ a.First-imageLink:hover {
         font-size: 11px
     }
 }
-@media (max-width: 1300px) {
+
+@media (max-width: 1200px) {
     .navlinks {
-        top: 15%;
-        position: fixed;
+        /* top: 15px; */
+        margin: auto;
+        position: absolute;
         width: 100%;
+        /* left: 0; */
         text-align: center;
-        transition: 1s;
-        right: -110%;
+        transition: 0.7s;
+        top: -100%;
         background: #222831;
         display: block;
-        /* height: 100%; */
-        background-color: #143477;
+        /* height: 50%; */
+
+        background-color: white;
         align-items: center;
 
     }
 
-    .main-nav .fa {
-        /* border: 2px solid red; */
-        text-align: right;
-        display: block;
-        color: whitesmoke;
-        font-size: 30px;
-        cursor: pointer;
-        margin: 35px;
-    }
-
-    .hero-btn {
-        display: block;
-        width: 15%;
-        margin: auto;
-    }
-
     .navlinks li {
-        display: block;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 4%;
     }
 
     .navlinks li a {
-        font-size: 20px;
+        border-radius: 5px;
+        text-align: left;
+        width: 100%;
+        padding: 10px 40%;
+        font-size: 25px;
+
+
     }
 
+    .navlinks li a:visited {
+        background-color: rgb(239, 239, 239);
+    }
+
+    .Nav-icons {
+        display: none;
+    }
+
+    .navlinks-2 {
+        display: none;
+    }
+
+    .main-nav .fa {
+        width: 90%;
+        margin: auto;
+        text-align: right;
+        padding: 20px 0%;
+        display: block;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .navlinks li {
+        /* display: block; */
+    }
+
+    .navlinks li a {}
 
 
+    /* 
     #check:checked~.navlinks {
         right: 0;
+    } */
+}
+
+@media (max-width: 990px) {
+
+
+    #Main-Container {
+        display: block;
     }
+
+
+    .First-Conatiner {
+
+        margin-right: 0%;
+        margin-top: 2%;
+    }
+
+    .Second-Conatiner {
+
+        margin-left: 0%;
+        margin-top: 2%;
+
+    }
+
+    .SecondImage-Conatiner {
+        margin-right: 0%;
+        margin-top: 0%;
+    }
+
+
+    .SecondImage-Second-Conatiner {
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+
+    .Boton-Pink {
+        margin-bottom: 4%;
+        margin-right: 0%;
+    }
+
+    .Boton-Yellow {
+        margin-bottom: 4%;
+        margin-left: 0%;
+    }
+
+    .Boton-White {
+        margin-bottom: 4%;
+        margin-right: 0%;
+    }
+
+    .Boton-Swans {
+        margin-bottom: 4%;
+        margin-left: 0%;
+    }
+
+    .Boton-Blue {
+        margin-bottom: 4%;
+        margin-right: 0%;
+    }
+
+    .Gap-Between {
+        margin-right: 0%;
+    }
+
+    .Gap-Between-2 {
+
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+
+
+
+
+
+    .Code-Editor-Image {
+        width: 90%;
+    }
+
+    .btn {
+        width: 90%;
+    }
+
+    .Slider {
+        width: 80%;
+
+    }
+
+    .Last-Boton-White {
+
+        width: 100%;
+
+    }
+
+
+
+    .Menu {
+        display: block;
+
+
+    }
+}
+
+
+@media (max-width: 490px) {
+
+
+
+    .Gap-Between {
+        display: block;
+        margin-right: 0%;
+    }
+
+    .Gap-Between-2 {
+
+
+
+
+        display: block;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+
+
 }
