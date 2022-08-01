@@ -30,17 +30,18 @@
                 </label>
                 <img src="/images/Layer 0.png">
                 <div class="navlinks" id="Links">
-                    <i class="fa fa-times" style="color: white;" onclick="hideMenu()"></i>
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul class="fa-Icon">
-                        <li><a href="#">Tutorials </i></a> </li>
-                        <li><a href="#">Refrences</i></a></li>
-                        <li><a href="#">Exercises </i></a></li>
-                        <li><a href="#">Videos</a></li>
+                        <li><a href="#" class="tablink" onclick="openPage('Tutorials')">Tutorials
+                                </i></a> </li>
+                        <li><a href="#" class="tablink" onclick="openPage('Refrences')">Refrences</i></a></li>
+                        <li><a href="#" class="tablink" onclick="openPage('Exercises')">Exercises </i></a></li>
+                        <li><a href="https://www.w3schools.com/videos/index.php">Videos</a></li>
 
                     </ul>
                 </div>
 
-                <div class="navlinks-2" id="Links">
+                <div class="navlinks-2">
 
                     <ul>
                         <li><a class="btn-transparent" href="#">Pro</a></li>
@@ -59,9 +60,428 @@
 
                 </ul>
 
-                <i class="fa fa-bars" style="color: white;" onclick="showMenu()"></i>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
 
             </nav>
+
+
+
+            <div class="tabcontent" id="Tutorials">
+                <div style="text-align:right ;">
+                    <i class="fa fa-times" onclick="closeMenu()"></i>
+                </div>
+                <h2>Tutorials</h2>
+                <div class="Menu">
+                    <div class="column">
+                        <h3>Html and css</h3>
+                        <a href="https://www.w3schools.com/html/default.asp" target="_blank">Learn HTML</a>
+                        <a href="https://www.w3schools.com/css/default.asp" target="_blank">Learn CSS</a>
+                        <a href="https://www.w3schools.com/css/css_rwd_intro.asp" target="_blank">Learn RWD</a>
+                        <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp" target="_blank">Learn
+                            Bootstrap</a>
+                        <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">Learn W3.CSS
+                            <a href="https://www.w3schools.com/icons/default.asp" target="_blank">Learn Icons</a>
+                            <a href="https://www.w3schools.com/graphics/default.asp" target="_blank">Learn
+                                Graphics</a>
+                            <a href="https://www.w3schools.com/graphics/svg_intro.asp" target="_blank">Learn SVG</a>
+                            <a href="https://www.w3schools.com/graphics/canvas_intro.asp" target="_blank">Learn
+                                Canvas</a>
+                            <a href="https://www.w3schools.com/colors/default.asp" target="_blank">Learn Colors</a>
+                            <a href="https://www.w3schools.com/howto/default.asp" target="_blank">Learn How To</a>
+                            <a href="https://www.w3schools.com/sass/default.php" target="_blank">Learn Sass</a>
+                    </div>
+                    <div class="column" style="margin: 0% 0% 0% 0%;">
+                        <h3>JavaScript</h3>
+                        <a href="https://www.w3schools.com/js/default.asp" target="_blank">Learn JavaScript</a>
+                        <a href="https://www.w3schools.com/jquery/default.asp" target="_blank">Learn jQuery</a>
+                        <a href="https://www.w3schools.com/react/default.asp" target="_blank">Learn React</a>
+                        <a href="https://www.w3schools.com/angular/default.asp" target="_blank">Learn AngularJS</a>
+                        <a href="https://www.w3schools.com/js/js_json_intro.asp" target="_blank">Learn JSON</a>
+                        <a href="https://www.w3schools.com/js/js_ajax_intro.asp" target="_blank">Learn AJAX</a>
+                        <a href="https://www.w3schools.com/appml/default.asp" target="_blank">Learn AppML</a>
+                        <a href="https://www.w3schools.com/w3js/default.asp" target="_blank">Learn W3.JS</a>
+                    </div>
+                    <div class="column" style="margin: 0% 0% 0% 0%;">
+                        <h3>Server Side</h3>
+                        <a href="https://www.w3schools.com/sql/default.asp" target="_blank">Learn SQL</a>
+                        <a href="https://www.w3schools.com/mysql/default.asp" target="_blank">Learn MySQL</a>
+                        <a href="https://www.w3schools.com/php/default.asp" target="_blank">Learn PHP</a>
+                        <a href="https://www.w3schools.com/asp/default.asp" target="_blank">Learn ASP</a>
+                        <a href="https://www.w3schools.com/nodejs/default.asp" target="_blank">Learn Node.js</a>
+                        <a href="https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp" target="_blank">Learn
+                            Raspberry Pi</a>
+                        <a href="https://www.w3schools.com/git/default.asp" target="_blank">Learn Git</a>
+                        <a href="https://www.w3schools.com/aws/index.php" target="_blank">Learn AWS Cloud</a>
+                    </div>
+                    <div class="column" style="margin: 0% 10% 0% 0%;">
+                        <h3>Data Analytics</h3>
+                        <a href="https://www.w3schools.com/ai/default.asp" target="_blank">Learn AI</a>
+                        <a href="https://www.w3schools.com/python/python_ml_getting_started.asp" target="_blank">Learn
+                            Machine
+                            Learning</a>
+                        <a href="https://www.w3schools.com/datascience/default.asp" target="_blank">Learn Data
+                            Science</a>
+                        <a href="https://www.w3schools.com/python/numpy/default.asp" target="_blank">Learn NumPy</a>
+                        <a href="https://www.w3schools.com/python/pandas/default.asp" target="_blank">Learn
+                            Pandas</a>
+                        <a href="https://www.w3schools.com/python/scipy/index.php" target="_blank">Learn SciPy</a>
+                        <a href="https://www.w3schools.com/python/matplotlib_intro.asp" target="_blank">Learn
+                            Matplotlib</a>
+                        <a href="https://www.w3schools.com/statistics/index.php" target="_blank">Learn
+                            Statistics</a>
+                        <a href="https://www.w3schools.com/excel/index.php" target="_blank">Learn Excel</a>
+                        <a href="https://www.w3schools.com/googlesheets/index.php" target="_blank">Learn Google
+                            Sheets</a>
+                    </div>
+                </div>
+                <div class="Menu">
+                    <div class="column">
+                        <h3>Programming</h3>
+                        <a href="https://www.w3schools.com/python/default.asp" target="_blank">Learn Python</a>
+                        <a href="https://www.w3schools.com/java/default.asp" target="_blank">Learn Java</a>
+                        <a href="https://www.w3schools.com/c/index.php" target="_blank">Learn C</a>
+                        <a href="https://www.w3schools.com/cpp/default.asp" target="_blank">Learn C++</a>
+                        <a href="https://www.w3schools.com/cs/index.php" target="_blank">Learn C#</a>
+                        <a href="https://www.w3schools.com/r/default.asp" target="_blank">Learn R</a>
+                        <a href="https://www.w3schools.com/kotlin/index.php" target="_blank">Learn Kotlin</a>
+                        <a href="https://www.w3schools.com/go/index.php" target="_blank">Learn Go</a>
+                    </div>
+                    <div class="column" style="margin: 0% 0% 0% 0%;">
+                        <h3>Web Building</h3>
+                        <a href="https://www.w3schools.com/spaces" target="_blank">Create a Website NEW</a>
+                        <a href="https://www.w3schools.com/where_to_start.asp" target="_blank">Where To Start</a>
+                        <a href="https://www.w3schools.com/w3css/w3css_templates.asp" target="_blank">Web
+                            Templates</a>
+                        <a href="https://www.w3schools.com/browsers/default.asp" target="_blank">Web Statistics</a>
+                        <a href="https://www.w3schools.com/cert/default.asp" target="_blank">Web Certificates</a>
+                        <a href="https://www.w3schools.com/whatis/default.asp" target="_blank">Web Development</a>
+                        <a href="https://www.w3schools.com/tryit/default.asp" target="_blank">Code Editor</a>
+                        <a href="https://www.w3schools.com/typingspeed/default.asp" target="_blank">Test Your Typing
+                            Speed</a>
+                        <a href="https://www.w3schools.com/codegame/index.html" target="_blank">Play a Code Game</a>
+                        <a href="https://www.w3schools.com/cybersecurity/index.php" target="_blank">Cyber
+                            Security</a>
+                        <a href="https://www.w3schools.com/accessibility/index.php" target="_blank">Accessibility</a>
+                    </div>
+                    <div class="column" style="margin: 0% 0% 0% 0%;">
+                        <h3>XML Tutorials</h3>
+                        <a href="https://www.w3schools.com/xml/default.asp" target="_blank">Learn XML</a>
+                        <a href="https://www.w3schools.com/xml/ajax_intro.asp" target="_blank">Learn XML AJAX</a>
+                        <a href="https://www.w3schools.com/xml/dom_intro.asp" target="_blank">Learn XML DOM</a>
+                        <a href="https://www.w3schools.com/xml/xml_dtd_intro.asp" target="_blank">Learn XML DTD</a>
+                        <a href="https://www.w3schools.com/xml/schema_intro.asp" target="_blank">Learn XML
+                            Schema</a>
+                        <a href="https://www.w3schools.com/xml/xsl_intro.asp" target="_blank">Learn XSLT</a>
+                        <a href="https://www.w3schools.com/xml/xpath_intro.asp" target="_blank">Learn XPath</a>
+                        <a href="https://www.w3schools.com/xml/xquery_intro.asp" target="_blank">Learn XQuery</a>
+                    </div>
+                    <div class="column" style="margin: 0% 10% 0% 0%;">
+                    </div>
+                </div>
+            </div>
+            <div class="tabcontent" id="Refrences">
+                <div style="text-align:right ;">
+                    <i class="fa fa-times" onclick="closeMenu()"></i>
+                </div>
+                <h2>References</h2>
+                <div class="Menu">
+                    <div class="column">
+                        <h3>HTML</h3>
+                        <a href="https://www.w3schools.com/tags/default.asp" target="_blank">HTML Tag Reference</a>
+                        <a href="https://www.w3schools.com/tags/ref_html_browsersupport.asp" target="_blank">HTML
+                            Browser Support</a>
+                        <a href="https://www.w3schools.com/tags/ref_eventattributes.asp" target="_blank">HTML Event
+                            Reference</a>
+                        <a href="https://www.w3schools.com/colors/default.asp" target="_blank">HTML Color
+                            Reference</a>
+                        <a href="https://www.w3schools.com/tags/ref_attributes.asp" target="_blank">HTML Attribute
+                            Reference
+                            <a href="https://www.w3schools.com/tags/ref_canvas.asp" target="_blank">HTML Canvas
+                                Reference</a>
+                            <a href="https://www.w3schools.com/graphics/svg_reference.asp" target="_blank">HTML SVG
+                                Reference</a>
+                            <a href="https://www.w3schools.com/graphics/google_maps_reference.asp"
+                                target="_blank">Google Maps
+                                Reference</a>
+                    </div>
+                    <div class="column" style="margin: 0% 0% 0% 0%;">
+                        <h3>JavaScript</h3>
+                        <a target="_blank" href="https://www.w3schools.com/jsref/default.asp">JavaScript
+                            Reference</a>
+                        <a target="_blank" href='https://www.w3schools.com/jsref/default.asp'>HTML DOM Reference</a>
+                        <a target="_blank" href='https://www.w3schools.com/jquery/jquery_ref_overview.asp'>jQuery
+                            Reference</a>
+                        <a target="_blank" href='https://www.w3schools.com/angular/angular_ref_directives.asp'>AngularJS
+                            Reference</a>
+                        <a target="_blank" href="https://www.w3schools.com/appml/appml_reference.asp">AppML
+                            Reference</a>
+                        <a target="_blank" href="https://www.w3schools.com/w3js/w3js_references.asp">W3.JS
+                            Reference</a>
+                    </div>
+                    <div class="column" style="margin: 0% 0% 0% 0%;">
+                        <h3>Server Side</h3>
+                        <a target="_blank" href='https://www.w3schools.com/sql/sql_ref_keywords.asp'>SQL
+                            Reference</a>
+                        <a target="_blank" href='https://www.w3schools.com/mysql/mysql_ref_functions.asp'>MySQL
+                            Reference</a>
+                        <a target="_blank" href='https://www.w3schools.com/php/php_ref_overview.asp'>PHP
+                            Reference</a>
+                        <a target="_blank" href='https://www.w3schools.com/asp/asp_ref_response.asp'>ASP
+                            Reference</a>
+
+                    </div>
+                    <div class="column" style="margin: 0% 10% 0% 0%;">
+                        <h3>Character Sets</h3>
+                        <a target="_blank" href='https://www.w3schools.com/charsets/default.asp'>HTML Character
+                            Sets</a>
+                        <a target="_blank" href='https://www.w3schools.com/charsets/ref_html_ascii.asp'>HTML
+                            ASCII</a>
+                        <a target="_blank" href='https://www.w3schools.com/charsets/ref_html_ansi.asp'>HTML ANSI</a>
+                        <a target="_blank" href='https://www.w3schools.com/charsets/ref_html_ansi.asp'>HTML
+                            Windows-1252</a>
+                        <a target="_blank" href='https://www.w3schools.com/charsets/ref_html_8859.asp'>HTML
+                            ISO-8859-1</a>
+                        <a target="_blank" href='https://www.w3schools.com/charsets/ref_html_symbols.asp'>HTML
+                            Symbols</a>
+                        <a target="_blank" href='https://www.w3schools.com/charsets/ref_html_utf8.asp'>HTML
+                            UTF-8</a>
+                    </div>
+                </div>
+                <div class="Menu">
+                    <div class="column">
+                        <h3>CSS</h3>
+                        <a href='https://www.w3schools.com/cssref/default.asp' target="_blank">CSS Reference</a>
+                        <a href='https://www.w3schools.com/cssref/css3_browsersupport.asp' target="_blank">CSS
+                            Browser
+                            Support</a>
+                        <a href='https://www.w3schools.com/cssref/css_selectors.asp' target="_blank">CSS Selector
+                            Reference</a>
+                        <a href='https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp'
+                            target="_blank">Bootstrap 3
+                            Reference</a>
+                        <a href='https://www.w3schools.com/bootstrap4/bootstrap_ref_all_classes.asp'
+                            target="_blank">Bootstrap 4
+                            Reference</a>
+                        <a href='https://www.w3schools.com/w3css/w3css_references.asp' target="_blank">W3.CSS
+                            Reference</a>
+                        <a href='https://www.w3schools.com/icons/icons_reference.asp' target="_blank">Icon
+                            Reference</a>
+                        <a href='https://www.w3schools.com/sass/sass_functions_string.php' target="_blank">Sass
+                            Reference</a>
+                    </div>
+                    <div class="column" style="margin: 0% 0% 0% 0%;">
+                        <h3>Programming</h3>
+                        <a target="_blank" href='https://www.w3schools.com/python/python_reference.asp'>Python
+                            Reference</a>
+                        <a target="_blank" href='https://www.w3schools.com/java/java_ref_keywords.asp'>Java
+                            Reference</a>
+                    </div>
+                    <div class="column" style="margin: 0% 0% 0% 0%;">
+                        <h3>XML</h3>
+                        <a target="_blank" href='https://www.w3schools.com/xml/dom_nodetype.asp'>XML DOM
+                            Reference</a>
+                        <a target="_blank" href='https://www.w3schools.com/xml/dom_http.asp'>XML Http Reference</a>
+                        <a target="_blank" href='https://www.w3schools.com/xml/xsl_elementref.asp'>XSLT
+                            Reference</a>
+                        <a target="_blank" href='https://www.w3schools.com/xml/schema_elements_ref.asp'>XML Schema
+                            Reference</a>
+                    </div>
+                    <div class="column" style="margin: 0% 10% 0% 0%;">
+                    </div>
+                </div>
+            </div>
+            <div class="tabcontent" id="Exercises">
+                <div style="text-align:right ;">
+                    <i class="fa fa-times" onclick="closeMenu()"></i>
+                </div>
+                <h2>Exercises and Quizzes</h2>
+                <div class="Menu">
+                    <div class="column">
+                        <h3>Exercise</h3>
+                        <a target="_blank" href="https://www.w3schools.com/html/html_exercises.asp">HTML
+                            Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/css/css_exercises.asp">CSS Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/js/js_exercises.asp">JavaScript
+                            Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/sql/sql_exercises.asp">SQL Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/mysql/mysql_exercises.asp">MySQL
+                            Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/php/php_exercises.asp">PHP Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/python/python_exercises.asp">Python
+                            Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/python/numpy/numpy_exercises.asp">NumPy
+                            Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/python/pandas/pandas_exercises.asp">Pandas
+                            Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/python/scipy/scipy_exercises.php">SciPy
+                            Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/jquery/jquery_exercises.asp">jQuery
+                            Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/java/java_exercises.asp">Java
+                            Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/cpp/cpp_exercises.asp">C++ Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/cs/cs_exercises.asp">C# Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/r/r_exercises.asp">R Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/kotlin/kotlin_exercises.php">Kotlin
+                            Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/go/go_exercises.php">Go Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/bootstrap/bootstrap_exercises.asp">Bootstrap
+                            Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/bootstrap4/bootstrap_exercises.asp">Bootstrap
+                            4 Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/bootstrap5/bootstrap_exercises.php">Bootstrap
+                            5 Exercises</a>
+                        <a target="_blank" href="https://www.w3schools.com/git/git_exercises.asp">Git Exercises</a>
+                    </div>
+                    <div class="column" style="margin: 0% 0% 0% 0%;">
+                        <h3>Quizzes</h3>
+                        <a target="_blank" href="https://www.w3schools.com/html/html_quiz.asp" target="_top">HTML
+                            Quiz</a>
+                        <a target="_blank" href="https://www.w3schools.com/css/css_quiz.asp" target="_top">CSS
+                            Quiz</a>
+                        <a target="_blank" href="https://www.w3schools.com/js/js_quiz.asp" target="_top">JavaScript
+                            Quiz</a>
+                        <a target="_blank" href="https://www.w3schools.com/sql/sql_quiz.asp" target="_top">SQL
+                            Quiz</a>
+                        <a target="_blank" href="https://www.w3schools.com/mysql/mysql_quiz.asp" target="_top">MySQL
+                            Quiz</a>
+                        <a target="_blank" href="https://www.w3schools.com/php/php_quiz.asp" target="_top">PHP
+                            Quiz</a>
+                        <a target="_blank" href="https://www.w3schools.com/python/python_quiz.asp" target="_top">Python
+                            Quiz</a>
+                        <a target="_blank" href="https://www.w3schools.com/python/numpy/numpy_quiz.asp"
+                            target="_top">NumPy Quiz</a>
+                        <a target="_blank" href="https://www.w3schools.com/python/pandas/pandas_quiz.asp"
+                            target="_top">Pandas
+                            Quiz</a>
+                        <a target="_blank" href="https://www.w3schools.com/python/scipy/scipy_quiz.php"
+                            target="_top">SciPy Quiz</a>
+                        <a target="_blank" href="https://www.w3schools.com/jquery/jquery_quiz.asp" target="_top">jQuery
+                            Quiz</a>
+                        <a target="_blank" href="https://www.w3schools.com/java/java_quiz.asp" target="_top">Java
+                            Quiz</a>
+                        <a target="_blank" href="https://www.w3schools.com/cpp/cpp_quiz.asp" target="_top">C++
+                            Quiz</a>
+                        <a target="_blank" href="https://www.w3schools.com/cs/cs_quiz.asp" target="_top">C# Quiz</a>
+                        <a target="_blank" href="https://www.w3schools.com/r/r_quiz.asp" target="_top">R Quiz</a>
+                        <a target="_blank" href="https://www.w3schools.com/xml/xml_quiz.asp" target="_top">XML
+                            Quiz</a>
+                        <a target="_blank" href="https://www.w3schools.com/cybersecurity/cybersecurity_quiz.php">Cyber
+                            Security Quiz</a>
+                        <a target="_blank" href="https://www.w3schools.com/bootstrap/bootstrap_quiz.asp"
+                            target="_top">Bootstrap
+                            Quiz</a>
+                        <a target="_blank" href="https://www.w3schools.com/bootstrap4/bootstrap_quiz.asp"
+                            target="_top">Bootstrap 4
+                            Quiz</a>
+                        <a target="_blank" href="https://www.w3schools.com/bootstrap5/bootstrap_quiz.php"
+                            target="_top">Bootstrap 5
+                            Quiz</a>
+                        <a target="_blank"
+                            href="https://www.w3schools.com/accessibility/accessibility_quiz.php">Accessibility
+                            Quiz</a>
+                    </div>
+                    <div class="column" style="margin: 0% 0% 0% 0%;">
+                        <h3>Courses</h3>
+                        <a target="_blank" href="https://courses.w3schools.com/courses/html" target="_blank">HTML
+                            Course</a>
+                        <a target="_blank" href="https://courses.w3schools.com/courses/css" target="_blank">CSS
+                            Course</a>
+                        <a target="_blank" href="https://courses.w3schools.com/courses/javascript"
+                            target="_blank">JavaScript
+                            Course</a>
+                        <a target="_blank" href="https://courses.w3schools.com/programs/front-end" target="_blank">Front
+                            End Course</a>
+                        <a target="_blank" href="https://courses.w3schools.com/courses/sql" target="_blank">SQL
+                            Course</a>
+                        <a target="_blank" href="https://courses.w3schools.com/courses/php" target="_blank">PHP
+                            Course</a>
+                        <a target="_blank" href="https://courses.w3schools.com/courses/python" target="_blank">Python
+                            Course</a>
+                        <a target="_blank" href="https://courses.w3schools.com/courses/numpy-fundamentals"
+                            target="_blank">NumPy
+                            Course</a>
+                        <a target="_blank" href="https://courses.w3schools.com/courses/pandas-fundamentals"
+                            target="_blank">Pandas
+                            Course</a>
+                        <a target="_blank" href="https://courses.w3schools.com/programs/data-analytics"
+                            target="_blank">Data
+                            Analytics
+                            Course</a>
+                        <a target="_blank" href="https://courses.w3schools.com/courses/jquery" target="_blank">jQuery
+                            Course</a>
+                        <a target="_blank" href="https://courses.w3schools.com/courses/java" target="_blank">Java
+                            Course</a>
+                        <a target="_blank" href="https://courses.w3schools.com/courses/cplusplus" target="_blank">C++
+                            Course</a>
+                        <a target="_blank" href="https://courses.w3schools.com/courses/c-sharp" target="_blank">C#
+                            Course</a>
+                        <a target="_blank" href="https://courses.w3schools.com/courses/r-fundamentals" target="_blank">R
+                            Course</a>
+                        <a target="_blank" href="https://courses.w3schools.com/courses/xml" target="_blank">XML
+                            Course</a>
+                        <a target="_blank" href="https://courses.w3schools.com/courses/introduction-to-cyber-security"
+                            target="_blank">Cyber
+                            Security Course</a>
+                        <a target="_blank" href="https://courses.w3schools.com/courses/accessibility-fundamentals"
+                            target="_blank">Accessibility
+                            Course</a>
+                    </div>
+                    <div class="column" style="margin: 0% 10% 0% 0%;">
+                        <h3>Certificates</h3>
+                        <a target="_blank"
+                            href="https://courses.w3schools.com/browse/certifications/courses/html-certification-exam"
+                            target="_blank">HTML Certificate</a>
+                        <a target="_blank"
+                            href="https://courses.w3schools.com/browse/certifications/courses/css-certification-exam"
+                            target="_blank">CSS Certificate</a>
+                        <a target="_blank"
+                            href="https://courses.w3schools.com/browse/certifications/courses/javascript-certification-exam"
+                            target="_blank">JavaScript Certificate</a>
+                        <a target="_blank"
+                            href="https://courses.w3schools.com/browse/certifications/courses/front-end-certification-exam"
+                            target="_blank">Front End Certificate</a>
+                        <a target="_blank"
+                            href="https://courses.w3schools.com/browse/certifications/courses/sql-certification-exam"
+                            target="_blank">SQL Certificate</a>
+                        <a target="_blank"
+                            href="https://courses.w3schools.com/browse/certifications/courses/php-certification-exam"
+                            target="_blank">PHP Certificate</a>
+                        <a target="_blank"
+                            href="https://courses.w3schools.com/browse/certifications/courses/python-certificaftion-exam"
+                            target="_blank">Python Certificate</a>
+                        <a target="_blank"
+                            href="https://courses.w3schools.com/browse/certifications/courses/data-science-certification-exam"
+                            target="_blank">Data Science Certificate</a>
+                        <a target="_blank"
+                            href="https://courses.w3schools.com/browse/certifications/courses/bootstrap-3-certification-exam"
+                            target="_blank">Bootstrap 3 Certificate</a>
+                        <a target="_blank"
+                            href="https://courses.w3schools.com/browse/certifications/courses/bootstrap-4-certification-exam"
+                            target="_blank">Bootstrap 4 Certificate</a>
+                        <a target="_blank"
+                            href="https://courses.w3schools.com/browse/certifications/courses/jquery-certification-exam"
+                            target="_blank">jQuery Certificate</a>
+                        <a target="_blank"
+                            href="https://courses.w3schools.com/browse/certifications/courses/java-certification-exam"
+                            target="_blank">Java Certificate</a>
+                        <a target="_blank"
+                            href="https://courses.w3schools.com/browse/certifications/courses/c-certification-exam"
+                            target="_blank">C++ Certificate</a>
+                        <a target="_blank"
+                            href="https://courses.w3schools.com/browse/certifications/courses/react-certification-exam"
+                            target="_blank">React Certificate</a>
+                        <a target="_blank"
+                            href="https://courses.w3schools.com/browse/certifications/courses/xml-certification-exam"
+                            target="_blank">XML Certificate</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
         </header>
 
 
@@ -197,7 +617,7 @@
 
         <div id="Main-Container">
             <div class="First-Conatiner">
-                <h1 style="color: white;">JavaScript</h1>
+                <h1 style="color: white;">Java Script</h1>
                 <p style="color:white;">
                     The language for Programming web pages
                 </p>
@@ -343,39 +763,37 @@
             <div class="SecondImage-Conatiner" style="background-color: #ffc0c7;">
                 <h1> PHP</h1>
                 <p>A web server programming language</p>
-                <div class="btn-Black-dark" style="margin-bottom: 8%;">
+                <div class="btn-Black-dark">
                     <a href="#">Learn PHP</a>
 
                 </div>
             </div>
 
-            <div class="SecondImage-Conatiner" style="background-color: #fff4a3;">
+            <div class="SecondImage-Second-Conatiner " style="background-color: #fff4a3;">
                 <h1> JQuery</h1>
                 <p>A JS for developing web pages</p>
-                <div class="btn-Black-dark" style="margin-bottom: 8%;">
+                <div class="btn-Black-dark">
                     <a href="#">HTML Refrence</a>
 
                 </div>
             </div>
 
         </div>
-
-
         <div id="Main-Container">
 
             <div class="SecondImage-Conatiner" style="background-color: #f3ecea;">
                 <h1> Java</h1>
                 <p>A Programming language</p>
-                <div class="btn-Black-dark" style="margin-bottom: 8%;">
+                <div class="btn-Black-dark">
                     <a href="#">Learn Java</a>
 
                 </div>
             </div>
 
-            <div class="SecondImage-Conatiner" style="background-color: #d9eee1;">
+            <div class="SecondImage-Second-Conatiner" style="background-color: #d9eee1;">
                 <h1> C++</h1>
                 <p>A Programming Language</p>
-                <div class="btn-Black-dark" style="margin-bottom: 8%;">
+                <div class="btn-Black-dark">
                     <a href="#">Learn C++</a>
 
                 </div>
@@ -387,16 +805,16 @@
             <div class="SecondImage-Conatiner" style="background-color: #96d4d4;">
                 <h1> W3.CSS</h1>
                 <p>A CSS framework for faster and better responsive web pages</p>
-                <div class="btn-Black-dark" style="margin-bottom: 8%;">
+                <div class="btn-Black-dark">
                     <a href="#">Learn W3.CSS</a>
 
                 </div>
             </div>
 
-            <div class="SecondImage-Conatiner" style="background-color: #e7e9eb;">
+            <div class="SecondImage-Second-Conatiner" style="background-color: #e7e9eb;">
                 <h1> Bootstrap</h1>
                 <p>A CSS framework for designing better web pages</p>
-                <div class="btn-Black-dark" style="margin-bottom: 8%;">
+                <div class="btn-Black-dark">
                     <a href="#">Learn Bootstrap</a>
 
                 </div>
@@ -410,21 +828,25 @@
 
         <div id="Main-Container">
 
+            <div class="Gap-Between">
 
-            <div class="Boton-Pink">
+                <div class="Boton-Pink">
 
-                <a href="#" href="">
-                    C
-                </a>
+                    <a href="#" href="">
+                        C
+                    </a>
 
+                </div>
             </div>
+            <div class="Gap-Between-2">
 
-            <div class="Boton-Yellow">
+                <div class="Boton-Yellow">
 
-                <a href="#" href="">
-                    C#
-                </a>
+                    <a href="#" href="">
+                        C#
+                    </a>
 
+                </div>
             </div>
 
 
@@ -433,196 +855,244 @@
 
         <div id="Main-Container">
 
-            <div class="Boton-White">
-                <a style="margin-right:7%" href="#" href="">
-                    R
-                </a>
+            <div class="Gap-Between">
+
+                <div class="Boton-White">
+                    <a href="#" href="">
+                        R
+                    </a>
+                </div>
+
+                <div class="Boton-Swans">
+                    <a href="#" href="">
+                        Kotlin
+                    </a>
+
+                </div>
+
+
+
+
             </div>
 
-            <div class="Boton-Swans">
-                <a style="margin-left:7%" href="#" href="">
-                    Kotlin
-                </a>
+            <div class="Gap-Between-2">
+
+                <div class="Boton-Blue">
+                    <a href="#" href="">
+                        Node.js
+                    </a>
+                </div>
+
+                <div class="Boton-Pink">
+                    <a href="#" href="">
+                        React
+                    </a>
+
+                </div>
 
             </div>
-            <div class="Boton-Blue">
-                <a style="margin-right:7%" href="#" href="">
-                    Node.js
-                </a>
+
+
+
+
+        </div>
+        <div id="Main-Container">
+            <div class="Gap-Between">
+
+                <div class="Boton-Yellow">
+                    <a href="#" href="">
+                        JSON
+                    </a>
+                </div>
+
+                <div class="Boton-White">
+                    <a href="#" href="">
+                        AngularJS
+                    </a>
+
+                </div>
             </div>
 
-            <div class="Boton-Pink">
-                <a style="margin-left:7%" href="#" href="">
-                    React
-                </a>
+
+            <div class="Gap-Between-2">
+
+                <div class="Boton-Swans">
+                    <a href="#" href="">
+                        MYSQL
+                    </a>
+                </div>
+
+                <div class="Boton-Blue">
+                    <a href="#" href="">
+                        XML
+                    </a>
+                </div>
 
             </div>
 
         </div>
         <div id="Main-Container">
+            <div class="Gap-Between">
 
-            <div class="Boton-Yellow">
-                <a style="margin-right:7%" href="#" href="">
-                    JSON
-                </a>
+                <div class="Boton-Pink">
+                    <a href="#" href="">
+                        Sass
+                    </a>
+                </div>
+
+                <div class="Boton-Yellow">
+                    <a href="#" href="">
+                        Icons
+                    </a>
+
+                </div>
             </div>
 
-            <div class="Boton-White">
-                <a style="margin-left:7%" href="#" href="">
-                    AngularJS
-                </a>
+            <div class="Gap-Between-2">
 
-            </div>
-            <div class="Boton-Swans">
-                <a style="margin-right:7%" href="#" href="">
-                    MYSQL
-                </a>
-            </div>
+                <div class="Boton-White">
+                    <a href="#" href="">
+                        RWD
+                    </a>
+                </div>
 
-            <div class="Boton-Blue">
-                <a style="margin-left:7%" href="#" href="">
-                    XML
-                </a>
-
-            </div>
-
-        </div>
-        <div id="Main-Container">
-
-            <div class="Boton-Pink">
-                <a style="margin-right:7%" href="#" href="">
-                    Sass
-                </a>
-            </div>
-
-            <div class="Boton-Yellow">
-                <a style="margin-left:7%" href="#" href="">
-                    Icons
-                </a>
-
-            </div>
-            <div class="Boton-White">
-                <a style="margin-right:7%" href="#" href="">
-                    RWD
-                </a>
-            </div>
-
-            <div class="Boton-Swans">
-                <a style="margin-left:7%" href="#" href="">
-                    Graphics
-                </a>
+                <div class="Boton-Swans">
+                    <a href="#" href="">
+                        Graphics
+                    </a>
+                </div>
 
             </div>
 
         </div>
         <div id="Main-Container">
+            <div class="Gap-Between">
 
-            <div class="Boton-Blue">
-                <a style="margin-right:7%" href="#" href="">
-                    SVG
-                </a>
-            </div>
+                <div class="Boton-Blue">
+                    <a href="#" href="">
+                        SVG
+                    </a>
+                </div>
 
-            <div class="Boton-Pink">
-                <a style="margin-left:7%" href="#" href="">
-                    Cannvas
-                </a>
-
-            </div>
-            <div class="Boton-Yellow">
-                <a style="margin-right:7%" href="#" href="">
-                    Rasberry Pi
-                </a>
-            </div>
-
-            <div class="Boton-White">
-                <a style="margin-left:7%" href="#" href="">
-                    Cyber Security
-                </a>
+                <div class="Boton-Pink">
+                    <a href="#" href="">
+                        Cannvas
+                    </a>
+                </div>
 
             </div>
+            <div class="Gap-Between-2">
 
-        </div>
-        <div id="Main-Container">
+                <div class="Boton-Yellow">
+                    <a href="#" href="">
+                        Rasberry Pi
+                    </a>
+                </div>
 
-            <div class="Boton-Swans">
-                <a style="margin-right:7%" href="#" href="">
-                    Colors
-                </a>
-            </div>
-
-            <div class="Boton-Blue">
-                <a style="margin-left:7%" href="#" href="">
-                    Git
-                </a>
-
-            </div>
-            <div class="Boton-Pink">
-                <a style="margin-right:7%" href="#" href="">
-                    Matplotlib
-                </a>
-            </div>
-
-            <div class="Boton-Yellow">
-                <a style="margin-left:7%" href="#" href="">
-                    Numpy
-                </a>
+                <div class="Boton-White">
+                    <a href="#" href="">
+                        Cyber Security
+                    </a>
+                </div>
 
             </div>
 
         </div>
         <div id="Main-Container">
+            <div class="Gap-Between">
 
-            <div class="Boton-White">
-                <a style="margin-right:7%" href="#" href="">
-                    Pandas
-                </a>
+                <div class="Boton-Swans">
+                    <a href="#" href="">
+                        Colors
+                    </a>
+                </div>
+
+                <div class="Boton-Blue">
+                    <a href="#" href="">
+                        Git
+                    </a>
+                </div>
+
             </div>
+            <div class="Gap-Between-2">
 
-            <div class="Boton-Swans">
-                <a style="margin-left:7%" href="#" href="">
-                    SciPy
-                </a>
+                <div class="Boton-Pink">
+                    <a href="#" href="">
+                        Matplotlib
+                    </a>
+                </div>
 
-            </div>
-            <div class="Boton-Blue">
-                <a style="margin-right:7%" href="#" href="">
-                    ASP
-                </a>
-            </div>
-
-            <div class="Boton-Pink">
-                <a style="margin-left:7%" href="#" href="">
-                    Accessibility
-                </a>
+                <div class="Boton-Yellow">
+                    <a href="#" href="">
+                        Numpy
+                    </a>
+                </div>
 
             </div>
 
         </div>
         <div id="Main-Container">
+            <div class="Gap-Between">
 
-            <div class="Boton-Yellow">
-                <a style="margin-right:7%" href="#" href="">
-                    AppML
-                </a>
+                <div class="Boton-White">
+                    <a href="#" href="">
+                        Pandas
+                    </a>
+                </div>
+
+                <div class="Boton-Swans">
+                    <a href="#" href="">
+                        SciPy
+                    </a>
+                </div>
+
+            </div>
+            <div class="Gap-Between-2">
+
+                <div class="Boton-Blue">
+                    <a href="#" href="">
+                        ASP
+                    </a>
+                </div>
+
+                <div class="Boton-Pink">
+                    <a href="#" href="">
+                        Accessibility
+                    </a>
+                </div>
+
             </div>
 
-            <div class="Boton-White">
-                <a style="margin-left:7%" href="#" href="">
-                    Go
-                </a>
+        </div>
+        <div id="Main-Container">
+            <div class="Gap-Between">
+
+                <div class="Boton-Yellow">
+                    <a href="#" href="">
+                        AppML
+                    </a>
+                </div>
+
+                <div class="Boton-White">
+                    <a href="#" href="">
+                        Go
+                    </a>
+                </div>
 
             </div>
-            <div class="Boton-Swans">
-                <a style="margin-right:7%" href="#" href="">
-                    TypeScript
-                </a>
-            </div>
+            <div class="Gap-Between-2">
 
-            <div class="Boton-Blue">
-                <a style="margin-left:7%" href="#" href="">
-                    Django
-                </a>
+                <div class="Boton-Swans">
+                    <a href="#" href="">
+                        TypeScript
+                    </a>
+                </div>
+
+                <div class="Boton-Blue">
+                    <a href="#" href="">
+                        Django
+                    </a>
+                </div>
 
             </div>
 
@@ -631,54 +1101,57 @@
 
         <div id="Main-Container">
 
+            <div class="Gap-Between" style="display: block;">
 
-            <div class="Boton-Yellow" style="display:block ;">
-                <div class="Boton-Blue" style="margin-bottom:5%; margin-right: 0%;margin-left: 0%;">
+                <div class="Boton-Blue" style="margin-bottom: 4%;">
 
                     <a href="#" href="">
                         Excel
                     </a>
                 </div>
-                <div class="Boton-Pink" style="margin-bottom:5%; margin-right: 0%;margin-left: 0%;">
-
+                <div class="Boton-Pink" style="margin-bottom: 4%;">
                     <a href="#" href="">
                         Machine Learning
                     </a>
                 </div>
-                <div class="Boton-White" style="margin-right: 0%;margin-left: 0%;">
-
-                    <a href="#" href="">
-                        Statistics
-                    </a>
-                </div>
-
-            </div>
-
-            <div class="Boton-Yellow" style="display:block ;">
-                <div class="Boton-Yellow" style="margin-bottom:5%; margin-right: 0%;margin-left: 0%;">
-
-                    <a href="#" href="">
-                        Google Sheets
-                    </a>
-                </div>
-                <div class="Boton-White" style="margin-bottom:5%; margin-right: 0%;margin-left: 0%;">
+                <div class="Boton-White">
 
                     <a href="#" href="">
                         Artificial Intelligence
                     </a>
                 </div>
-                <div class="Boton-Swans" style=" margin-right: 0%;margin-left: 0%;">
+            </div>
+            <div class="Gap-Between-2" style="display: block;">
+
+                <div class="Boton-Yellow" style="margin-bottom: 4%;">
+
+                    <a href="#" href="">
+                        Google Sheets
+                    </a>
+                </div>
+                <div class="Boton-White" style="margin-bottom: 4%;">
+
+                    <a href="#" href="">
+                        Statistics
+                    </a>
+                </div>
+                <div class="Boton-Swans">
 
                     <a href="#" href="">
                         Data Science
                     </a>
                 </div>
-
             </div>
 
+
+
+
+
+
+
+
+
         </div>
-
-
 
 
 
@@ -688,23 +1161,28 @@
                 <p style="color: white; margin: 2% auto; letter-spacing: 0.7; ">
                     With our online code editor, you can edit code and view the result in your browser
                 </p>
-                <div style="width:70%; margin: auto auto auto 5%;">
+                <div class="Code-Editor-Image">
 
                     <img src="/gif/Screenshot_2.png" alt="" style="width:100%;border-radius: 5px 5px 0px 0px">
                     <img src="/gif/codeeditor.gif" alt="" style="width:100%">
                 </div>
+                <div class="btn">
 
-                <div class="btn-Green-dark" style="text-align: left;">
-                    <a style="border-radius:5px ; width: 30%;" href="#">Try Forntend Editor (HTML/CSS/JS)</a>
+                    <div class="btn-Green-dark">
+                        <a style="border-radius:5px ; width: 50%;" href="#">Try Forntend Editor (HTML/CSS/JS)</a>
+                    </div>
                 </div>
 
-                <div style="width:70%;  margin: auto auto auto 5%;">
+                <div class="Code-Editor-Image">
 
                     <img src="/gif/Screenshot_2.png" alt="" style="width:100%;border-radius: 5px 5px 0px 0px">
                     <img src="/gif/codeeditor2.gif" alt="" style="width:100%">
                 </div>
-                <div class="btn-Yellow-dark" style="text-align: left;">
-                    <a style="border-radius:5px ;width: 30%;" href="#">Try Backend Editor (Python/PHP/Java)</a>
+                <div class="btn">
+
+                    <div class="btn-Yellow-dark">
+                        <a style="border-radius:5px ;width: 50%;" href="#">Try Backend Editor (Python/PHP/Java)</a>
+                    </div>
 
                 </div>
             </div>
@@ -723,7 +1201,7 @@
                     </p>
 
                     <div class="btn-Green-dark">
-                        <a style="width: 27%; padding:15px 0px; font-size: 22px; " href="#">Get Started for Free</a>
+                        <a style="width: 30%; padding:15px 0px; font-size: 22px; " href="#">Get Started for Free</a>
                     </div>
 
                     <div>
@@ -786,21 +1264,25 @@
             </div>
 
             <div id="Main-Container">
+                <div class="Gap-Between">
 
-                <div class="Boton-Pink">
+                    <div class="Boton-Pink">
 
-                    <a style="padding: 80px 0px; font-size: 40px;" href="#" href="">
-                        Exercises
-                    </a>
+                        <a style="padding: 80px 0px; font-size: 40px;" href="#" href="">
+                            Exercises
+                        </a>
+                    </div>
 
                 </div>
+                <div class="Gap-Between-2">
 
-                <div class="Boton-Yellow">
+                    <div class="Boton-Yellow">
 
-                    <a style="padding: 80px 0px; font-size: 40px;" href="#" href="">
-                        Quizzes
-                    </a>
+                        <a style="padding: 80px 0px; font-size: 40px;" href="#" href="">
+                            Quizzes
+                        </a>
 
+                    </div>
                 </div>
 
             </div>
@@ -837,14 +1319,15 @@
         <div id="Main-Container">
             <div class="First-Conatiner">
                 <h1 style="color: #ffc0c7;font-size: 50px;text-align: left;">Kickstart your career</h1>
-                <h1 style="margin-top: 7%;color: #ffc0c7;font-size: 50px;text-align: left;">Get certified by completing
+                <h1 style="margin-top: 7%;color: #ffc0c7;font-size: 50px;text-align: left;">Get certified by
+                    completing
                     a course</h1>
                 <div class="btn-Green-dark" style="text-align: left;">
                     <a style="width: 27%; padding:15px 0px; font-size: 22px; " href="#">Get Started</a>
                 </div>
             </div>
 
-            <div style="width: 20%;border: 2px solid red;">
+            <div class="W3-logo">
 
                 <svg id="w3_cert_badge" data-name="w3_cert_badge" xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 300 300">
@@ -894,57 +1377,57 @@
 
         <div id="Main-Container" style="display:block ;">
 
-            <div style="width:75%; margin: auto auto auto auto;">
+            <div class="Slider">
 
                 <img src="/gif/Screenshot_2.png" alt="" style="width:100%;border-radius: 10px 10px 0px 0px">
-            </div>
-            <div class="slideshow-container">
+                <div class="slideshow-container">
 
-                <div class="mySlides fade" style="display: block;">
-                    <div class="numbertext">1 / 3</div>
-                    <img src="/images/1img_nature_wide.jpg" style="width:100%">
-                    <div class="text">Caption Text</div>
+                    <div class="mySlides fade" style="display: block;">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="/images/1img_nature_wide.jpg" style="width:100%">
+                        <div class="text">Caption Text</div>
+                    </div>
+
+                    <div class="mySlides fade" style="display: none;">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="/images/2img_snow_wide.jpg" style="width:100%">
+                        <div class="text">Caption Two</div>
+                    </div>
+
+                    <div class="mySlides fade" style="display: none;">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="/images/3img_mountains_wide.jpg" style="width:100%">
+                        <div class="text">Caption Three</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+
                 </div>
 
-                <div class="mySlides fade" style="display: none;">
-                    <div class="numbertext">2 / 3</div>
-                    <img src="/images/2img_snow_wide.jpg" style="width:100%">
-                    <div class="text">Caption Two</div>
+                <div
+                    style="background-color:#282a35;text-align:center;width: 10%;margin: auto; padding: 15px 0px;border-radius: 0px 0px 5px 5px; ">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
                 </div>
+                <div style="background-color:#282a35;text-align:center; width: 5%;padding: 45px 0px; margin: auto;">
 
-                <div class="mySlides fade" style="display: none;">
-                    <div class="numbertext">3 / 3</div>
-                    <img src="/images/3img_mountains_wide.jpg" style="width:100%">
-                    <div class="text">Caption Three</div>
                 </div>
-
-                <a class="prev" onclick="plusSlides(-1)">❮</a>
-                <a class="next" onclick="plusSlides(1)">❯</a>
-
-            </div>
-            <br>
-
-            <div
-                style="background-color:#282a35;text-align:center;width: 10%;margin: -1.5% auto 0% auto; padding: 15px 0px;border-radius: 0px 0px 5px 5px; ">
-                <span class="dot active" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
-            <div style="background-color:#282a35;text-align:center; width: 5%;padding: 45px 0px; margin: auto;">
-
-            </div>
-            <div class="btn-black-dark" style="margin: 0px auto ;">
-                <a style="width: 40%;padding:10px 0px ; " href="#">LEARN HOW TO</a>
+                <div class="btn-black-dark" style="margin: 0px auto ;">
+                    <a style="width: 50%;padding:10px 0px ; " href="#">LEARN HOW TO</a>
+                </div>
             </div>
 
 
 
         </div>
     </div>
-    <div id="NinthImage-Container" style="background-color: yellow ;">
+
+    <div id="NinthImage-Container">
         <div id="Main-Container">
 
-            <div class="Last-Boton-White" style="border: 2px solid red;">
+            <div class="Last-Boton-White">
                 <a href="#">
                     COURSES
                 </a>
@@ -959,40 +1442,35 @@
                 </a>
 
             </div>
-            <div class="Last-Boton-Green" style="border: 2px solid red; ">
-                
+            <!-- <div class="Last-Boton-White">
+            </div> -->
+            <div class="Last-Boton-Green">
+
                 <a href="#">
-                    COURSES
+                    FOURM
                 </a>
 
-                |
 
                 <a href="#">
-                    &nbsp;
-                    SPACES
+                    ABOUT
                 </a>
 
             </div>
+        </div>
+        <div id="Main-Container" style="display:block ;">
 
-            <!-- <a class="Facebbok-icon" href="https://www.facebook.com/w3schoolscom/">
-                <i class="fa fa-facebook-square">
+
+            <div class="Facebook-icon" style="text-align: right;">
+                <i class="fab fa-facebook-square">
                 </i>
-            </a>
-
-            <a class="instagram-icon" href="https://www.instagram.com/w3schools.com_official/">
-                <i class="fa fa-instagram"></i>
-            </a>
-            <a class="linkedin-icon" href="https://www.linkedin.com/company/w3schools.com/">
-                <i class="fa fa-linkedin-square"></i>
-            </a>
-
-            <a class="discord-icon" href="https://discord.gg/6Z7UaRbUQM">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-square"></i>
                 <i class="fab fa-discord"></i>
-            </a>
+            </div>
 
-            <p
-                style=" font-size:15px; letter-spacing: 1px; text-align: center; margin-top: 200px;margin-left: 3%;margin-right: 3%; position: absolute; color: white; line-height: 25px;">
-                <b>W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve
+            <p style="color: white;">
+                <b>W3Schools is optimized for learning, testing, and training. Examples might be simplified to
+                    improve
                     reading
                     and basic understanding.
                     Tutorials,
@@ -1002,79 +1480,139 @@
                     all content.
                     While using this site, you agree to have read and
                     accepted our<br>
-                    <a class="terms-LINK" href="https://www.w3schools.com/about/about_copyright.asp" target="_blank">
+                    <a class="terms-LINK" href="#">
                         terms of use
-                    </a>,<a class="cookie-LINK" href="https://www.w3schools.com/about/about_privacy.asp"
-                        target="_blank">
+                    </a>,<a class="terms-LINK" href="#">
                         cookie and privacy policy
                     </a>.
                     </a>
-                    <a class="Copyright-LINK" href="https://www.w3schools.com/about/about_copyright.asp"
-                        target="_blank">
+                    <a class="terms-LINK" href="#">
                         Copyright 1999-2022
                     </a>
                     by Refsnes Data. All Rights Reserved.
 
                 </b>
             </p>
-
-            <a class="thumbs-icon" href="javascript:void(0);">
+            <a class="thumbs-icon" href="#">
                 <i class="fa fa-thumbs-up"></i>
             </a>
 
-            <a class="Fifteen-6th-Button  " href="https://shop.w3schools.com/" target="_blank"
-                style="text-decoration: none; color: white;  ">
-                W3SCHOOLS SHOP
-            </a>
-        </div> -->
 
         </div>
 
 
 
 
-        <script>
-            var navLinks = document.getElementById("Links");
+    </div>
+    <script>
 
-
-            function showMenu() {
-                navLinks.style.right = "0";
+        $(document).on("Close_Button", function (event) {
+            var $trigger = $(".Close_Button");
+            if ($trigger !== event.target && !$trigger.has(event.target).length) {
+                $(".tabcontent").slideUp("slow");
             }
-            function hideMenu() {
-                navLinks.style.right = "-110%";
+        });
+    </script>
+    <script>
+        function openPage(pageName, elmnt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
             }
-
-        </script>
-
-
-        <script>
-            var slideIndex = 1;
-            showSlides(slideIndex);
-
-            function plusSlides(n) {
-                showSlides(slideIndex += n);
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
             }
+            document.getElementById(pageName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+        }
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
 
-            function currentSlide(n) {
-                showSlides(slideIndex = n);
-            }
+    <script>
 
-            function showSlides(n) {
-                var i;
-                var slides = document.getElementsByClassName("mySlides");
-                var dots = document.getElementsByClassName("dot");
-                if (n > slides.length) { slideIndex = 1 }
-                if (n < 1) { slideIndex = slides.length }
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                slides[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " active";
+        var tabcontent = document.getElementById("Tutorials Exercises");
+        function closeMenu() {
+            tabcontent.style.display = "none";
+        }
+
+
+    </script>
+    <script>
+
+
+        // var tabcontent = document.querySelectorAll("#Tutorials, #Exercises, #References")
+        function closeMenu() {
+            document.getElementById("Tutorials").style.display = "none";
+            document.getElementById("Refrences").style.display = "none";
+            document.getElementById("Exercises").style.display = "none";
+
+            // tabcontent.style.display = "none";
+        }
+
+
+    </script>
+
+
+    <!-- <script>
+        var tabcontent = document.getElementById("References");
+        function closeMenu() {
+            tabcontent.style.display = "none";
+        }
+
+    </script>
+    <script>
+        var tabcontent = document.getElementById("Exercises");
+        function closeMenu() {
+            tabcontent.style.display = "none";
+        }
+
+    </script> -->
+
+    <script>
+        var navLinks = document.getElementById("Links");
+
+
+        function showMenu() {
+            navLinks.style.top = "0";
+        }
+        function hideMenu() {
+            navLinks.style.top = "-100%";
+        }
+
+    </script>
+
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
             }
-        </script>
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
 
 
 </body>
