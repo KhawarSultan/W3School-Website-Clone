@@ -19,7 +19,7 @@ The W3School Clone website is a replica built using HTML, CSS, and JavaScript. I
 
 ## Demo
 
-Check out the live demo of the University Multi-page website [here](https://schoolw3.netlify.app/).
+Check out the live demo of the W3School - Clone Website [here](https://schoolw3.netlify.app/).
 
 ## Screenshots
 
